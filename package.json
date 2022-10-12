@@ -75,7 +75,7 @@
     "@rollup/plugin-typescript": "^8.3.2",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/dom": "^8.13.0",
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/jest-dom": "^5.16.5",
     "@types/jest": "^27.4.1",
     "@types/jest-dev-server": "^5.0.0",
     "@types/marked": "^4.0.3",
