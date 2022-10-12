@@ -1,338 +1,313 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Join the community, learn new things!",
+  "title": "DevFest Spain 2022",
+  "description": "Valencia, 29 de octubre",
   "image": "images/social-share.jpg",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
+  "keywords": "event, gdg, gde, gdsc, devfest, google, programming, developers, web, golang, flutter, cloud, ai, biotech, spain",
+  "dates": "",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
-  "share": "Share",
-  "followOur": "Follow our",
-  "followUs": "Follow us",
-  "emailUs": "Email us",
-  "partnershipResources": "Partnership Resources",
-  "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
+  "share": "Compartir",
+  "followOur": "Entérate de todo en nuestra",
+  "followUs": "Síguenos",
+  "emailUs": "Escríbenos",
+  "partnershipResources": "Recursos para los colaboradores",
+  "eventResources": "Recursos para el evento",
+  "buyTicket": "¡Apúntate ahora!",
+  "signIn": "Iniciar sesión",
+  "signOut": "Cerrar sesión",
   "viewHighlights": "View Highlights",
-  "offlineMessage": "You can still work offline.",
-  "serviceWorkerInstalled": "App is now installed and available offline.",
-  "serviceWorkerAvailable": "A new version of this app is available.",
-  "serviceWorkerInstalling": "App being installed for offline use.",
-  "serviceWorkerError": "Error caching for offline use.",
-  "refresh": "Refresh",
-  "position": "Position",
-  "country": "Country",
-  "time": "Time",
+  "offlineMessage": "Puedes continuar sin conexión.",
+  "serviceWorkerInstalled": "La web ya está disponible sin conexión.",
+  "serviceWorkerAvailable": "Hay una nueva versión disponible de la web.",
+  "serviceWorkerInstalling": "La web se está configurando para su uso sin conexión.",
+  "serviceWorkerError": "Error al cachear la web para su uso sin conexión.",
+  "refresh": "Recargar",
+  "position": "Posición",
+  "country": "País",
+  "time": "Hora",
   "faq": "/data/faq.md",
   "coc": "/data/coc.md",
   "timezoneOffset": "-180",
-  "loading": "Loading...",
+  "loading": "Cargando...",
   "footer": {
-    "blog": "Blog"
+    "blog": "Web"
   },
   "bookmarked": {
-    "added": "Session saved to My Schedule",
-    "removed": "Session removed from My Schedule"
+    "added": "Sesión guardada en Mi Agenda",
+    "removed": "Sesión eliminada de Mi Agenda"
   },
   "mySchedule": {
-    "title": "My Schedule",
-    "browseSession": "Browse sessions"
+    "title": "Mi Agenda",
+    "browseSession": "Explorar las charlas"
   },
   "footerRelBlock": [
     {
-      "title": "About",
+      "title": "Sobre nosotros",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "GDG Valencia",
+          "url": "http://gdgvalencia.es/",
           "newTab": true
         },
         {
-          "name": "GDG",
-          "url": "https://developers.google.com/groups/",
+          "name": "GDG Spain",
+          "url": "http://gdg.es/",
           "newTab": true
         },
         {
-          "name": "DevFest",
+          "name": "Conoce al equipo",
+          "url": "/team/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Eventos anteriores",
+      "links": [
+        {
+          "name": "DevFest Valencia 2019",
+          "url": "http://2019.devfest.gdgvalencia.es/",
+          "newTab": true
+        },
+        {
+          "name": "DevFest Spain 2020",
+          "url": "https://gdg.community.dev/events/details/google-gdg-valencia-presents-devfest-spain-2020/",
+          "newTab": true
+        },
+        {
+          "name": "DevFest Spain 2021",
+          "url": "https://blog.gdg.es/2021/10/DevfestSpain2021.html",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Sobre el evento",
+      "links": [
+        {
+          "name": "Qué es un DevFest",
           "url": "https://devfest.withgoogle.com/",
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "name": "Dossier de patrocinio",
+          "url": "/assets/dossier.pdf",
           "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "Explore Past DevFests",
-      "links": [
-        {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.web.app/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2015",
-          "url": "https://dfua15.web.app/",
-          "newTab": true
-        },
-        {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.web.app/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "Event Resources",
-      "links": [
-        {
-          "name": "Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Info Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Call for Papers",
-          "url": "https://drive.google.com/open?id=10tPuu_7ASM8C70SotqRqIW5Uzos9BzALilMMQPg_JvA",
-          "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq",
-          "newTab": false
         }
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "codeOfConduct": "Code of Conduct",
+  "subscribeNote": "¡Nada de spam, sólo las últimas noticias y actualizaciones!",
+  "codeOfConduct": "Código de conducta",
   "codeOfConductBlock": {
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
-      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+      "Andreu Ibáñez, @andreuibanez",
+      "Irene Ruiz Pozo, @ireneruizpozo"
     ]
   },
   "aboutBlock": {
-    "title": "About",
+    "title": "¿Qué es el DevFest Spain en Valencia?",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "description": "El 29 de octubre celebraremos el DevFest Spain 2022 organizado con mucha ilusión entre las comunidades GDG Asturias, GDG Lleida, GDG Madrid, GDG Marbella, GDG La Rioja y GDG Valencia.\nDevFest es una iniciativa promovida a nivel global por Google para apoyar e impulsar a las comunidades tecnológicas y que persigue ser diverso e inclusivo desde sus inicios.\nSerá un evento en el que nos reunimos personas interesadas en tecnología para compartir lo que hacemos, aprender y fomentar la colaboración. ¡Tenemos muchas ganas de que lo disfrutéis!",
+        "label": "Visita el site de GDG Spain",
+        "link": "https://blog.gdg.es/"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
+        "description": "Nuestro objetivo es que el DevFest Spain 2022 sea el mejor lugar para compartir experiencias en un ambiente fantástico.",
+        "label": "Mira como fue",
         "youtubeId": "TdpbgRgz6eE"
       }
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
-        "number": "900"
+        "label": "Asistentes",
+        "number": "150"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Día",
+        "number": "1"
       },
       "sessions": {
-        "label": "Sessions",
-        "number": "50"
+        "label": "Charlas",
+        "number": "5"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Track",
+        "number": "1"
       }
     }
   },
   "ticketsBlock": {
-    "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
-    "soldOut": "You missed it!",
-    "notAvailableYet": "Not available yet",
-    "save": "Save ${discount}% today"
+    "title": "Entradas",
+    "ticketsDetails": "Las entradas dan acceso a todas las charlas del evento y a la pausa café.",
+    "soldOut": "¡Entradas agotadas!",
+    "notAvailableYet": "Entradas no disponibles",
+    "save": "Ahorra ${discount}% hoy"
   },
   "partnersBlock": {
-    "title": "Partners",
-    "button": "Become a partner",
+    "title": "Colaboradores",
+    "button": "Colabora",
     "form": {
-      "title": "Become a partner!",
-      "submitLabel": "Submit",
-      "fullName": "Full Name",
-      "companyName": "Company Name"
+      "title": "¡Colabora!",
+      "submitLabel": "Enviar",
+      "fullName": "Nombre completo",
+      "companyName": "Nombre de la empresa u organización"
     },
-    "toast": "We will contact you soon!"
+    "toast": "¡Nos pondremos en contacto en breve!"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "Vídeos destacados del DevFest Spain 2022",
     "callToAction": {
-      "label": "See all videos",
+      "label": "Ver todos los vídeos",
       "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
     }
   },
   "blog": {
-    "published": "Published",
-    "suggested": "Up next"
+    "published": "Publicado",
+    "suggested": "Lo siguiente"
   },
   "latestPostsBlock": {
-    "title": "The latest news",
+    "title": "Últimas noticias",
     "callToAction": {
-      "label": "View all stories",
+      "label": "Ver todas las noticias",
       "link": "/blog"
     }
   },
   "speakers": {
-    "skills": "Skills",
-    "previousYears": "Years",
-    "previousYear": "Year"
+    "skills": "Habilidades",
+    "previousYears": "Años",
+    "previousYear": "Año"
   },
   "speakersBlock": {
-    "title": "Speakers",
+    "title": "Ponentes",
     "callToAction": {
-      "label": "View all speakers",
+      "label": "Conóceles",
       "link": "/speakers"
     }
   },
   "previousSpeakersBlock": {
-    "title": "Previous speakers",
+    "title": "Ponentes de eventos anteriores",
     "callToAction": {
-      "label": "View all",
+      "label": "Ver todos",
       "link": "/previous-speakers"
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "El espacio",
+    "description": "El evento se celebrará en la Sala Polivalent de Las Naves, un espacio increíble en una ubicación privilegiada, donde disfrutaremos de una mañana llena de tecnología.",
     "callToAction": {
-      "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "label": "Conoce Las Naves",
+      "link": "https://www.lasnaves.com/?lang=es"
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Ubicación"
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
-      "label": "Subscribe"
+      "description": "Recibe comunicaciones para estar al día de las novedades sobre el evento",
+      "label": "Darme de alta"
     },
-    "yourEmail": "Your email",
-    "emailAddress": "Email Address",
-    "firstName": "First Name",
-    "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
-    "emailRequired": "Please enter a valid email address.",
-    "fieldRequired": "Field required.",
-    "subscribe": "Subscribe",
-    "subscribed": "Subscribed",
-    "close": "Close",
-    "generalError": "An error has occurred. Please, try again later.",
-    "toast": "Successfully subscribed!"
+    "yourEmail": "Tu correo electrónico",
+    "emailAddress": "Dirección de correo electrónico",
+    "firstName": "Nombre",
+    "lastName": "Apellidos",
+    "formTitle": "Recibe en tu bandeja de entrada las últimas noticias y actualizaciones sobre DevFest Spain.",
+    "emailRequired": "Por favor, introduce una dirección de correo electrónico válida.",
+    "fieldRequired": "Campo requerido.",
+    "subscribe": "Darme de alta",
+    "subscribed": "Dado de alta",
+    "close": "Cerrar",
+    "generalError": "Se ha producido un error. Por favor, inténtelo de nuevo más tarde.",
+    "toast": "¡Dado de alta correctamente!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Google es conocido en todo el mundo. Todos están 'googleando', revisando 'mapas' y comunicándose en 'gmail'. Para usuarios normales, son servicios que simplemente funcionan, pero los desarrolladores ven mucho más allá: APIs, problemas de escalabilidad, stacks tecnológicos complejos. Y de eso van los GDG.<br><br> [Google Developers Group (GDG) Valencia](http://gdgvalencia.es/): es una comunidad abierta y gestionada por voluntarios para crear proyectos interesantes y compartir experiencias sobre las tecnologías de Google con pasión.<br><br> Nuestro objetivo es organizar un espacio para conectar a los mejores expertos de la industria con la audiencia local para impulsar el desarrollo de la tecnología."
   },
   "schedule": {
-    "saveSessionsSignedOut": "Sign in to save sessions"
+    "saveSessionsSignedOut": "Inicia sesión para guardar las charlas"
   },
   "feedback": {
-    "save": "Save",
-    "headline": "Review session",
-    "leaveFeedback": "to leave feedback",
-    "sendFeedbackSignedOut": "Sign in to leave feedback",
-    "removeFeedbackSignedOut": "Sign in to delete feedback",
-    "feedbackRecorded": "Feedback saved",
-    "feedbackDeleted": "Feedback deleted",
-    "helperText": "Comments will be anonymously provided to speakers",
-    "somethingWentWrong": "Something went wrong",
-    "contentCaption": "Content quality",
-    "styleCaption": "Presentation style",
-    "deleteFeedback": "Delete",
-    "sessionClosed": "Session reviews are not open"
+    "save": "Guardar",
+    "headline": "Valora la charla",
+    "leaveFeedback": "para dejar tus comentarios",
+    "sendFeedbackSignedOut": "Inicia sesión para dejar tus comentarios",
+    "removeFeedbackSignedOut": "Inicia sesión para eliminar tus comentarios",
+    "feedbackRecorded": "Comentarios guardados",
+    "feedbackDeleted": "Comentarios eliminados",
+    "helperText": "Los comentarios se facilitarán de forma anónima a los ponentes",
+    "somethingWentWrong": "Algo ha salido mal",
+    "contentCaption": "Calidad del contenido",
+    "styleCaption": "Estilo de la presentación",
+    "deleteFeedback": "Eliminar",
+    "sessionClosed": "El periodo de valoración de las charlas no está abierto"
   },
   "sessionDetails": {
-    "contentLevel": "Content level",
-    "viewPresentation": "View presentation",
-    "viewVideo": "View video",
-    "speakers": "Speakers"
+    "contentLevel": "Nivel",
+    "viewPresentation": "Ver presentación",
+    "viewVideo": "Ver vídeo",
+    "speakers": "Ponentes"
   },
   "speakerDetails": {
-    "sessions": "Sessions"
+    "sessions": "Charlas"
   },
   "notifications": {
-    "default": "Enable notifications",
-    "generalLabel": "General notifications",
-    "myScheduleLabel": "My Schedule notifications",
-    "enabled": "Get notified of general announcements and sessions starting",
-    "signIn": "Sign in to get personalized session notifications",
-    "enable": "Enable",
-    "subscribe": "Subscribe",
-    "unsubscribe": "Unsubscribe",
-    "myScheduleEnabled": "My Schedule notifications enabled",
-    "myScheduleDisabled": "My Schedule notifications disabled",
-    "generalEnabled": "General notifications enabled",
-    "generalDisabled": "General notifications disabled",
+    "default": "Activar las notificaciones",
+    "generalLabel": "Notificaciones generales",
+    "myScheduleLabel": "Notificaciones de Mi Agenda",
+    "enabled": "Recibe notificaciones sobre los anuncios generales y el inicio de las charlas",
+    "signIn": "Inicie sesión para recibir notificaciones personalizadas de las charlas",
+    "enable": "Activar",
+    "subscribe": "Darse de alta",
+    "unsubscribe": "Darse de baja",
+    "myScheduleEnabled": "Notificaciones de Mi Agenda activadas",
+    "myScheduleDisabled": "Notificaciones de Mi Agenda desactivadas",
+    "generalEnabled": "Notificaciones generales activadas",
+    "generalDisabled": "Notificaciones generales desactivadas",
     "blocked": {
-      "text": "Please enable notifications in your browser",
-      "label": "Enable",
+      "text": "Por favor, active las notificaciones en su navegador",
+      "label": "Activar",
       "link": "https://support.google.com/chrome/answer/3220216"
     },
     "unsupported": {
-      "text": "Notifications are not supported on this device",
-      "label": "Details",
+      "text": "Las notificaciones no son compatibles con este dispositivo",
+      "label": "Detalles",
       "link": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API#browser_compatibility"
     },
     "unknown": {
-      "text": "Unknown error occurred"
+      "text": "Se ha producido un error desconocido"
     },
     "toast": {
-      "title": "Open"
+      "title": "Abrir"
     }
   },
   "aboutOrganizerBlock": {
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "title": "Organizador",
+        "description": "<a href='http://gdg.es' target='_blank'>GDG Spain</a> con el soporte de 10 GDGs de toda España se enorgullece de organizar DevFest Spain 2022",
         "callToAction": {
-          "label": "Open team page",
+          "label": "Abrir la página del equipo",
           "link": "/team"
         }
       },
       {
-        "title": "What is a GDG?",
-        "description": "A Google Developer Group is a community of volunteers who create exciting projects and share experiences about Google technologies.",
+        "title": "¿Qué es un GDG?",
+        "description": "Un Google Developer Group es una comunidad de voluntarios que crean proyectos interesantes y comparten experiencias sobre las tecnologías de Google.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Saber más",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }
       },
       {
-        "title": "What is DevFest?",
-        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
+        "title": "¿Qué es un DevFest?",
+        "description": "Los DevFest son eventos para desarrolladores dirigidos por la comunidad y organizados por los Google Developer Groups en todo el mundo.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Saber más",
           "link": "https://devfest.withgoogle.com/",
           "newTab": true
         }
@@ -340,21 +315,21 @@
     ]
   },
   "signInDialog": {
-    "alreadyHaveAccount": "You already have an account",
-    "alreadyUsed": "You've already used",
+    "alreadyHaveAccount": "Ya tienes una cuenta",
+    "alreadyUsed": "Ya has utilizado",
     "signInToContinue": {
-      "part1": "Sign in with",
-      "part2": "to continue."
+      "part1": "Inicia sesión con",
+      "part2": "para continuar."
     }
   },
   "filters": {
-    "title": "Filters",
-    "results": "Results",
-    "tags": "Tags",
-    "complexity": "Complexity",
-    "clear": "Clear all"
+    "title": "Filtros",
+    "results": "Resultados",
+    "tags": "Etiquetas",
+    "complexity": "Nivel",
+    "clear": "Borrar todo"
   },
   "addToHomeScreen": {
-    "cta": "Add to Home Screen"
+    "cta": "Añadir a la pantalla de inicio"
   }
 }

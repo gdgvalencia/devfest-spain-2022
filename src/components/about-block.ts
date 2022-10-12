@@ -78,34 +78,6 @@ export class AboutBlock extends ThemedElement {
               <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
             </paper-button>
           </a>
-
-          <p>${aboutBlock.callToAction.howItWas.description}</p>
-          <paper-button class="animated icon-right" @click="${this.playVideo}">
-            <span>${aboutBlock.callToAction.howItWas.label}</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
-        </div>
-
-        <div class="statistics-block">
-          <div class="item">
-            <div class="numbers">${aboutBlock.statisticsBlock.attendees.number}</div>
-            <div class="label">${aboutBlock.statisticsBlock.attendees.label}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">${aboutBlock.statisticsBlock.days.number}</div>
-            <div class="label">${aboutBlock.statisticsBlock.days.label}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">${aboutBlock.statisticsBlock.sessions.number}</div>
-            <div class="label">${aboutBlock.statisticsBlock.sessions.label}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">${aboutBlock.statisticsBlock.tracks.number}</div>
-            <div class="label">${aboutBlock.statisticsBlock.tracks.label}</div>
-          </div>
         </div>
       </div>
     `;

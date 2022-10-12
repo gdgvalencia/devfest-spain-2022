@@ -221,8 +221,6 @@ export class SpeakerPage extends ReduxMixin(PolymerElement) {
         </div>
       </div>
 
-      <previous-speakers-block></previous-speakers-block>
-
       <footer-block></footer-block>
     `;
   }

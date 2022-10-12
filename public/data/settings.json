@@ -1,42 +1,42 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
-    "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "name": "GDG Spain",
+    "twitter": "gdgspain",
+    "blog": "https://gdg.es/",
+    "url": "http://gdg.es/"
   },
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2022-10-29T07:00:00+02:00",
+  "endDate": "2022-10-29T11:00:00+02:00",
   "webapp": {
     "shortName": "DevFest",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
   "dateFormat": {
-    "locale": "en-US"
+    "locale": "es-ES"
   },
-  "hashtag": "DevFest",
+  "hashtag": "devfestspain2022",
   "disabledSchedule": false,
   "navigation": [
     {
       "route": "home",
       "permalink": "/",
-      "label": "Home"
+      "label": "Inicio"
     },
     {
       "route": "speakers",
       "permalink": "/speakers",
-      "label": "Speakers"
+      "label": "Ponentes"
     },
     {
       "route": "schedule",
       "permalink": "/schedule",
-      "label": "Schedule"
+      "label": "Agenda"
     },
     {
       "route": "team",
       "permalink": "/team",
-      "label": "Team"
+      "label": "Equipo"
     },
     {
       "route": "blog",
@@ -46,7 +46,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Join the commuity, learn new things!",
+      "description": "Valencia, 29 de octubre",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -55,40 +55,40 @@
     },
     "blog": {
       "title": "Blog",
-      "metaDescription": "Read stories from our team",
+      "metaDescription": "Lee las historias de nuestro equipo",
       "background": {
         "color": "#FFF"
       },
       "fontColor": "#424242"
     },
     "speakers": {
-      "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "title": "Ponentes",
+      "metaDescription": "Conoce y comparte con la gente que está construyendo el futuro de la tecnología.",
+      "description": "Conoce y comparte con la gente que está construyendo el futuro de la tecnología.",
       "background": {
         "color": "#FFF"
       },
       "fontColor": "#424242"
     },
     "previousSpeakers": {
-      "title": "Previous Speakers",
-      "metaDescription": "Check who was with us last years",
+      "title": "Ponentes de eventos anteriores",
+      "metaDescription": "Mira quien estuvo con nosotros en eventos anteriores",
       "background": {
         "color": "#FFF"
       },
       "fontColor": "#424242"
     },
     "schedule": {
-      "title": "Schedule",
-      "metaDescription": "Choose your sessions to visit",
+      "title": "Agenda",
+      "metaDescription": "Organizate para no perderte nada del evento",
       "background": {
         "color": "#fff"
       },
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Team",
-      "metaDescription": "Get more info about organizers",
+      "title": "Equipo",
+      "metaDescription": "Conoce a los organizadores",
       "background": {
         "color": "#fff"
       },
@@ -96,23 +96,23 @@
     },
     "faq": {
       "title": "FAQs",
-      "metaDescription": "Find you answer right here!",
+      "metaDescription": "¡Encuentra la respuesta aquí!",
       "background": {
         "color": "#fff"
       },
       "fontColor": "#424242"
     },
     "coc": {
-      "title": "Code of Conduct",
-      "metaDescription": "Learn more about our expectations for all those who participate in our community",
+      "title": "Código de conducta",
+      "metaDescription": "Revisa nuestras expectativas sobre el comportamiento de todos los participantes en el evento",
       "background": {
         "color": "#fff"
       },
       "fontColor": "#424242"
     },
     "notFound": {
-      "title": "Not Found",
-      "metaDescription": "Page not found",
+      "title": "No encontrado",
+      "metaDescription": "Página no encontrada",
       "background": {
         "color": "#fff"
       },
@@ -120,43 +120,43 @@
     }
   },
   "location": {
-    "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "label": "Ubicación",
+    "name": "Las Naves",
+    "city": "",
+    "short": "València, España",
+    "address": "Carrer de Joan Verdeguer, 16, 46024 València",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 39.4587039,
+      "longitude": -0.3404624,
+      "zoom": 12
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 39.4587039,
+      "longitude": -0.3404624
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Las Naves | Centre d'innovació social i urbana de la ciutat de València"
   },
   "socialNetwork": {
     "follow": [
       {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
+        "url": "https://www.meetup.com/es-ES/GDGValencia/"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/gdgvalencia/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
+        "url": "https://twitter.com/gdgvalencia/"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "url": "https://www.instagram.com/gdgvalencia"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://www.youtube.com/user/GDGValencia/"
       }
     ],
     "share": [
@@ -170,17 +170,17 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "devfest@gdgvalencia.es",
   "signInProviders": {
     "providersData": [
       {
         "name": "google",
-        "label": "Sign in with Google",
+        "label": "Inicia sesión con Google",
         "url": "https://accounts.google.com"
       },
       {
         "name": "twitter",
-        "label": "Sign in with Twitter",
+        "label": "Inicia sesión con Twitter",
         "url": "https://twitter.com"
       }
     ],
