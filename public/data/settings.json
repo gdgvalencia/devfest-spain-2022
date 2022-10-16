@@ -37,11 +37,6 @@
       "route": "team",
       "permalink": "/team",
       "label": "Equipo"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
