@@ -34,6 +34,7 @@ export {
   serviceWorkerInstalled,
   serviceWorkerInstalling,
   sessionDetails,
+  share,
   signIn,
   signInDialog,
   signOut,

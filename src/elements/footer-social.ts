@@ -1,9 +1,10 @@
 import { customElement, property } from '@polymer/decorators';
 import '@polymer/paper-icon-button';
 import { html, PolymerElement } from '@polymer/polymer';
-import { share } from '../utils/share';
+import { share as shareIt } from '../utils/share';
 import {
   emailUs,
+  share,
   followOur,
   followUs,
   footer,
@@ -150,14 +151,14 @@ export class FooterSocial extends PolymerElement {
       </style>
 
       <div class="social-group share-block">
-        <div class="title">[[resources.share]]</div>
+        <div class="title">[[share]]</div>
         <div class="nav-inline">
           <div class="share">
             <paper-icon-button
               class="share-facebook"
               icon="hoverboard:facebook"
               share="facebook"
-              on-click="share"
+              on-click="doShare"
             >
             </paper-icon-button>
           </div>
@@ -166,7 +167,7 @@ export class FooterSocial extends PolymerElement {
               class="share-twitter"
               icon="hoverboard:twitter"
               share="twitter"
-              on-click="share"
+              on-click="doShare"
             >
             </paper-icon-button>
           </div>
@@ -211,6 +212,8 @@ export class FooterSocial extends PolymerElement {
   @property({ type: Object })
   private socialNetwork = socialNetwork;
   @property()
+  private share = share;
+  @property()
   private followOur = followOur;
   @property()
   private followUs = followUs;
@@ -225,7 +228,7 @@ export class FooterSocial extends PolymerElement {
   @property({ type: Boolean })
   private blogNewTab = organizer.blog.startsWith('http');
 
-  share(e: PointerEvent) {
-    return share(e);
+  doShare(e: PointerEvent) {
+    return shareIt(e);
   }
 }
