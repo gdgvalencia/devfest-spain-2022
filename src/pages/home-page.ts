@@ -1,4 +1,5 @@
-import { customElement, property, query } from '@polymer/decorators';
+import { Success } from '@abraham/remotedata';
+import { computed, customElement, property, query } from '@polymer/decorators';
 import '@polymer/iron-icon';
 import '@polymer/paper-button';
 import { html, PolymerElement } from '@polymer/polymer';
@@ -17,9 +18,9 @@ import '../elements/speakers-block';
 import '../elements/subscribe-block';
 import '../elements/tickets-block';
 import { firebaseApp } from '../firebase';
-import { store } from '../store';
+import { RootState } from '../store';
 import { ReduxMixin } from '../store/mixin';
-import { queueSnackbar } from '../store/snackbars';
+import { initialTicketsState, TicketsState } from '../store/tickets/state';
 import { openVideoDialog } from '../store/ui/actions';
 import {
   aboutBlock,
@@ -172,10 +173,12 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button on-click="scrollToTickets" primary invert>
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
-              [[buyTicket]]
-            </paper-button>
+            <a href$="[[ticketUrl]]" target="_blank" rel="noopener noreferrer">
+              <paper-button primary invert>
+                <iron-icon icon="hoverboard:ticket"></iron-icon>
+                [[buyTicket]]
+              </paper-button>
+            </a>
           </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
@@ -269,20 +272,24 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   @property({ type: Boolean })
   private showForkMeBlock: boolean = false;
 
+  @property({ type: Object })
+  tickets: TicketsState = initialTicketsState;
+
+  @computed('tickets')
+  private get ticketUrl() {
+    if (this.tickets instanceof Success && this.tickets.data.length > 0) {
+      const availableTicket = this.tickets.data.find((ticket) => ticket.available);
+      return (availableTicket || this.tickets.data[0])?.url || '';
+    } else {
+      return '';
+    }
+  }  
+
   private playVideo() {
     openVideoDialog({
       title: this.aboutBlock.callToAction.howItWas.label,
       youtubeId: this.aboutBlock.callToAction.howItWas.youtubeId,
     });
-  }
-
-  private scrollToTickets() {
-    const element = this.$['tickets-block'];
-    if (element) {
-      scrollToElement(element);
-    } else {
-      store.dispatch(queueSnackbar('Error scrolling to section.'));
-    }
   }
 
   private scrollNextBlock() {
@@ -297,6 +304,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       import('../elements/fork-me-block');
     }
     return showForkMeBlock;
+  }
+
+  override stateChanged(state: RootState) {
+    this.tickets = state.tickets;
   }
 
   override connectedCallback() {
