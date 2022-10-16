@@ -25,7 +25,7 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
           width: 100%;
           min-height: 400px;
           height: calc(100vh - 40px);
-          max-height: 750px;
+          max-height: 500px;
           grid-template-columns: repeat(3, 1fr);
           grid-template-rows: repeat(5, 1fr);
           grid-gap: 2px;
@@ -36,28 +36,16 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
           background-color: var(--secondary-background-color);
         }
 
-        .grid-item:first-child {
+        .grid-item:nth-child(4) {
           grid-area: 1 / 1 / 3 / 4;
         }
 
-        .grid-item:nth-child(2) {
+        .grid-item:nth-child(5) {
           grid-area: 3 / 1 / 5 / 3;
         }
 
-        .grid-item:nth-child(3) {
-          grid-area: 3 / 3 / 3 / 3;
-        }
-
-        .grid-item:nth-child(4) {
-          grid-area: 4 / 3 / 4 / 3;
-        }
-
-        .grid-item:nth-child(5) {
-          grid-area: 5 / 1 / 5 / 1;
-        }
-
         .grid-item:nth-child(6) {
-          display: none;
+          grid-area: 3 / 3 / 5 / 3;
         }
 
         .grid-item:nth-child(7) {
@@ -65,8 +53,12 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
         }
 
         .grid-item:nth-child(8) {
-          display: none;
+          grid-area: 5 / 1 / 5 / 1;
         }
+
+        .grid-item:nth-child(9) {
+          display: none;
+        } 
 
         .gallery-info {
           padding: 16px;
@@ -85,47 +77,38 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
           .photos-grid {
             height: calc(100vh - 64px);
             grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-          }
-
-          .grid-item:first-child {
-            grid-area: 1 / 1 / 1 / 3;
-          }
-
-          .grid-item:nth-child(2) {
-            grid-area: 1 / 3 / 2 / 5;
-          }
-
-          .grid-item:nth-child(3) {
-            grid-area: 1 / 5 / 3 / 5;
+            grid-template-rows: repeat(2, 1fr);
           }
 
           .grid-item:nth-child(4) {
-            grid-area: 2 / 1 / 2 / 1;
+            grid-area: 1 / 1 / 1 / 1;
           }
 
           .grid-item:nth-child(5) {
-            grid-area: 2 / 2 / 2 / 2;
+            grid-area: 1 / 2 / 1 / 2;
           }
 
           .grid-item:nth-child(6) {
-            grid-area: 3 / 1 / 3 / 3;
-            display: block;
+            grid-area: 2 / 1 / 2 / 3;
           }
 
           .grid-item:nth-child(7) {
-            grid-area: 3 / 3 / 3 / 3;
+            grid-area: 2 / 3 / 2 / 3;
             display: block;
           }
 
           .grid-item:nth-child(8) {
-            grid-area: 3 / 4 / 3 / 6;
+            grid-area: 2 / 4 / 2 / 6;
+          }
+
+          .grid-item:nth-child(9) {
+            grid-area: 1 / 5 / 1 / 6;
             display: block;
           }
 
           .gallery-info {
             padding: 24px;
-            grid-area: 2 / 3 / 2 / 5;
+            grid-area: 1 / 3 / 1 / 5;
           }
         }
       </style>
@@ -150,7 +133,10 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
               <p>[[galleryBlock.description]]</p>
             </div>
             <a href="[[galleryBlock.callToAction.link]]" target="_blank" rel="noopener noreferrer">
-              <paper-button>[[galleryBlock.callToAction.label]]</paper-button>
+              <paper-button class="cta-button animated icon-right">
+                <span>[[galleryBlock.callToAction.label]]</span>
+                <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+              </paper-button>
             </a>
           </div>
         </template>
