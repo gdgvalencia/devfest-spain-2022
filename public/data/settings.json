@@ -124,15 +124,15 @@
     "name": "Las Naves",
     "city": "",
     "short": "València, España",
-    "address": "Carrer de Joan Verdeguer, 16, 46024 València",
+    "address": "Carrer de Joan Verdeguer, 16\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 46024 València",
     "pointer": {
       "latitude": 39.4587039,
-      "longitude": -0.3404624,
-      "zoom": 12
+      "longitude": -0.3382737,
+      "zoom": 15
     },
     "mapCenter": {
       "latitude": 39.4587039,
-      "longitude": -0.3404624
+      "longitude": -0.3382737
     },
     "description": "Las Naves | Centre d'innovació social i urbana de la ciutat de València"
   },
