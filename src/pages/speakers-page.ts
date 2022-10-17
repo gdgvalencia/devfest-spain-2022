@@ -40,7 +40,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           display: grid;
           grid-template-columns: 1fr;
           grid-gap: 16px;
-          min-height: 80%;
+          min-height: 60%;
         }
 
         .speaker {
@@ -108,13 +108,11 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           color: #fff;
         }
 
-        .company-logo {
-          --lazy-image-width: 100%;
-          --lazy-image-height: 16px;
-          --lazy-image-fit: contain;
-          width: var(--lazy-image-width);
-          height: var(--lazy-image-height);
-        }
+        .company {
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 1.1;
+        }        
 
         .description {
           color: var(--primary-text-color);
@@ -224,13 +222,8 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               </div>
             </div>
 
-            <lazy-image
-              class="company-logo"
-              src="[[speaker.companyLogoUrl]]"
-              alt="[[speaker.company]]"
-            ></lazy-image>
-
             <div class="description">
+              <h2 class="company">[[speaker.company]]</h2>
               <h2 class="name">[[speaker.name]]</h2>
               <div class="origin">[[speaker.country]]</div>
 

@@ -82,14 +82,12 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
           color: #fff;
         }
 
-        .company-logo {
-          margin-top: 6px;
-          --lazy-image-width: 100%;
-          --lazy-image-height: 16px;
-          --lazy-image-fit: contain;
-          width: var(--lazy-image-width);
-          height: var(--lazy-image-height);
-        }
+        .company {
+          margin-top: 16px;
+          font-size: 16px;
+          line-height: 1.1;
+        }        
+
 
         .description {
           color: var(--primary-text-color);
@@ -192,13 +190,10 @@ export class SpeakersBlock extends ReduxMixin(PolymerElement) {
                 </div>
               </div>
 
-              <lazy-image
-                class="company-logo"
-                src="[[speaker.companyLogoUrl]]"
-                alt="[[speaker.company]]"
-              ></lazy-image>
-
               <div class="description">
+                <text-truncate lines="1">
+                  <h3 class="company">[[speaker.company]]</h3>
+                </text-truncate>
                 <text-truncate lines="1">
                   <h3 class="name">[[speaker.name]]</h3>
                 </text-truncate>
