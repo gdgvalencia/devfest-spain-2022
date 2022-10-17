@@ -242,7 +242,7 @@
       "name": "Moisés Martínez",
       "photo": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Fmoises.jpg?alt=media&token=266ce4b8-da79-4a7c-b618-26d031792b1e",
-      "pronouns": "he/him",
+      "pronouns": "",
       "shortBio": "Data & AI Head en Paradigma Digital.",
       "socials": [
         {
@@ -274,7 +274,7 @@
       "name": "María Gómez",
       "photo": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Fmaria.jpg?alt=media&token=25627069-f618-4062-be35-2123e9703f3c",
-      "pronouns": "she/her",
+      "pronouns": "",
       "shortBio": "Estudiante de Biotecnología en la Universidad Politécnica de València.",
       "socials": [
         {
@@ -305,7 +305,7 @@
       "featured": false,
       "name": "Xavier Portilla Edo",
       "photo": "/images/people/anton_minashkin.jpg",
-      "pronouns": "he/him",
+      "pronouns": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Fxavier.jpg?alt=media&token=90c971d8-889c-49af-8816-22f7da05c90b",
       "shortBio": "Experto en Cloud, Kubernetes, DevOps, Q&A, microservicios y aplicaciones basadas en voz.",
       "socials": [
@@ -338,7 +338,7 @@
       "name": "Irene Ruiz Pozo",
       "photo": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Firene.jpg?alt=media&token=04549ef5-0c03-4435-97cb-5f8cf7c0f845",
-      "pronouns": "she/her",
+      "pronouns": "",
       "shortBio": "Co-creadora y co-directora del Programa Europeo de Mentorización de los Google Developer Student Clubs.",
       "socials": [
         {
@@ -365,7 +365,7 @@
       "name": "Andreu Ibáñez",
       "photo": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Fandreu.jpg?alt=media&token=8334654c-ab12-4019-b1af-0ef184288239",
-      "pronouns": "he/him",
+      "pronouns": "",
       "shortBio": "Andreu es un tecnólogo freelancer con más de 35 años de experiencia en el sector de las Tecnologías de la Información.",
       "socials": [
         {
@@ -402,7 +402,7 @@
       "name": "Alfredo Bautista",
       "photo": "",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/speakers%2Falfredo.jpeg?alt=media&token=2e0c4128-1d85-4c2b-9de8-b35295e4c6b9",
-      "pronouns": "he/him",
+      "pronouns": "",
       "shortBio": "Desarrollando todo el frontend con Flutter desde sus primeras versiones.",
       "socials": [
         {
