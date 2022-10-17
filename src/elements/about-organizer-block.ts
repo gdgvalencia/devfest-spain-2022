@@ -31,37 +31,36 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
           max-width: 50%;
         }
 
-        .image-link {
-          width: 80%;
-          height: 80%;
+        .organizers {
+          flex-direction: row !important;
         }
 
-        .organizers-photo {
-          --lazy-image-width: 100%;
-          --lazy-image-height: 100%;
-          --lazy-image-fit: cover;
-          width: var(--lazy-image-width);
-          height: var(--lazy-image-height);
+        .video-teaser {
+          width: 100%;
         }
 
         .description {
           color: var(--secondary-text-color);
         }
 
+        .description-block {
+          padding: 0 0 0 50px;
+        }        
+
         paper-button {
           margin: 0;
         }
       </style>
 
-      <div class="container" layout horizontal>
+      <div class="container organizers" layout horizontal>
         <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
-          <a href="/team" class="image-link">
-            <lazy-image
-              class="organizers-photo"
-              src="[[aboutOrganizerBlock.image]]"
-              alt="Organizer"
-            ></lazy-image>
-          </a>
+          <iframe class="video-teaser"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wgD7-gEK9_Y"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
         </div>
 
         <div class="description-block" flex>

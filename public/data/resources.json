@@ -284,16 +284,8 @@
     }
   },
   "aboutOrganizerBlock": {
-    "image": "/images/team.jpg",
+    "image": "https://www.youtube.com/watch?v=wgD7-gEK9_Y&list=PL1blf2lcaPMSboE_A-UZ0C-gNU-l_4AEE",
     "blocks": [
-      {
-        "title": "Organizador",
-        "description": "<a href='http://gdg.es' target='_blank'>GDG Spain</a> con el soporte de 10 GDGs de toda España se enorgullece de organizar DevFest Spain 2022",
-        "callToAction": {
-          "label": "Abrir la página del equipo",
-          "link": "/team"
-        }
-      },
       {
         "title": "¿Qué es un GDG?",
         "description": "Un Google Developer Group es una comunidad de voluntarios que crean proyectos interesantes y comparten experiencias sobre las tecnologías de Google.",
