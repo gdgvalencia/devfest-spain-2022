@@ -429,30 +429,6 @@
     {
       "members": [
         {
-          "name": "Aurora Barrero",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/team%2Faurora.png?alt=media&token=8b1dccd4-42fc-46a1-b3c6-2979bdb6278e",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/aurora_barrero",
-              "name": "Twitter"
-            },
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/aurorabarrero/",
-              "name": "LinkedIn"
-            }
-          ],
-          "order": 0,
-          "title": ""
-        }
-      ],
-      "title": "GDG Asturias"
-    },
-    {
-      "members": [
-        {
           "name": "Andreu Ibañez",
           "photo": "",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/team%2Fandreu.jpg?alt=media&token=fc7ddac7-ae27-475e-9067-4f099a59f0c7",
@@ -560,30 +536,6 @@
         }
       ],
       "title": "GDG Marbella"
-    },
-    {
-      "members": [
-        {
-          "name": "Mario Ezquerro",
-          "photo": "",
-          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-spain-2022.appspot.com/o/team%2Fmario.jpg?alt=media&token=a75e9ebf-e422-4f40-9b28-ce54eab2ed39",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/Mario_Ezquerro",
-              "name": "Twitter"
-            },
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/mario-ezquerro-s%C3%A1enz-a239b270/",
-              "name": "LinkedIn"
-            }
-          ],
-          "order": 0,
-          "title": ""
-        }
-      ],
-      "title": "GDG La Rioja"
     },
     {
       "members": [
